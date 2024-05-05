@@ -1,0 +1,22 @@
+Dans cet exercice, vous allez crée un module python nommée bootcamp.py qui contient la logique selon laquelle, un étudiant a reussi cette formation.
+
+Ce bootcamp est fait de 4 cours :
+
+Les bases de Python dont le coefficient est 3
+Le calcul numérique avec Numpy : 4
+Manipulation des données avec Pandas : 7
+Visualisation des données avec Matplotlib et Seaborn : 5
+La moyenne d'un étudiant est la moyenne coefficiée de ses notes. Pour éviter que les étudiants ratent des jours de cours, une pénalité est mise en place pour chaque jour de cours raté. Un minus de 5% est fait sur la moyenne de chaque étudiant pour chaque abscence. Un bonus de 10% de la moyenne est accordé aux étudiants n'ayant raté aucune séance de cours
+
+Avant de commencer ce bootcamp, chaque étudiant a donné son niveau en Python sur une échelle de 1 à 5. Pour réussir la formation, vous devrez avoir une moyenne finale de :
+
+17/20 si votre niveau est 5
+15/20 si votre niveau est 4
+14/20 si votre niveau est 3
+13.5/20 si votre niveau est 2
+12/20 si votre niveau est 1
+Vous êtes chargé d'écrire la logique de réussite d'un étudiant afin de faciliter la tâche au formateur. Il aimerait entrer les informations de chaque étudiant et obtenir un Oui s'il est admis et Non s'il ne l'est pas. Voici l'exemple pour un étudiant:
+
+import bootcamp
+
+resultat = bootcamp.decision(python=15, numpy=12, pandas=14.6, matplotlib=18, abscence=3, niveau=3)
