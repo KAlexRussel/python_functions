@@ -1,3 +1,6 @@
+"""
+    A quoi ressemblerait le Français sans voyelle ? Nous allons écrire une fonction qui prend une chaine de caractères et enlève les voyelles.
+"""
 def rem_voyelle(word):
     list_voyelle = ["a","e","i","o","u","y"]
     new_list = ""

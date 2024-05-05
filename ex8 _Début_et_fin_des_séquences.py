@@ -1,3 +1,9 @@
+"""
+    En Python, les listes, les tuples et les strings sont des séquences. 
+    En Python, on peut écrire une fonction qui prend différents types de variables. 
+    Dans cet exercice, nous allons écrire une fonction qui prend en Entrée, une liste, un tuple ou un string et retourne une variable du même type mais avec le premier et le dernier élément de la séquence.
+
+"""
 def Beg_end(var):
     vars =list(var)
     new_var =[]

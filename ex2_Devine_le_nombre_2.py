@@ -1,3 +1,9 @@
+"""
+    Reprend ton code pour le programme précédent. Modifie le pour donner seulement 3 chances à l'utilisateur pour deviner le nombre aléatoire choisit. 
+    Après 3 tentatives echouées, le programme s'arrête et affiche à l'utilisateur qu'il a épuisé ses chances.
+
+"""
+
 from random import randint
 def devinette():
     print("Ceci est un jeu de devinette. Vous avez seulement 3 chances pour deviner le nombre")

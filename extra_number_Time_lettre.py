@@ -1,5 +1,5 @@
 """
-    count the number of time a letter appaer in a string
+    compte le nombre de fois une lettre serepete dans un mots
 
 """
 
