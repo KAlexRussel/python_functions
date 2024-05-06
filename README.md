@@ -1,2 +1,3 @@
 # python_functions
-Some python functions I coded 
+
+Exercices sur les bases de python et mes solutions
